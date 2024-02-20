@@ -1,3 +1,63 @@
+AdaptNXT Technology Assignment:|
+_______________________________|
+
+Created All the Tables:
+Table Names:
+1.Accepted Table
+2.AWB Created Table
+3.Cancelled Table
+4.Completed Table
+5.Pending Table
+6. Ready to Table
+7. Shipped Table
+Each Table Exported and imported in Layouts accordingly to combine them with The Headers Which contains Headings Pending, Accepted, AWB Created, Cancelled, Completed, Pending, Ready to Ship, Shipped.
+
+If user Clicks on that Header, The user will get the table accordingly.
+
+--Created MainHeader Which will be visible at every Screen.
+
+Created another Vertical header which contains different router like Dashboard, Inventory, orders, Shipping and Channel.
+User Can Click on that routes and will get them and access. 
+For Example if we user clicks Order Heading He will 
+get all the tables regareding Orders and the Orders Page will contain all the heading regarding the tables as mentioned above.
+
+
+COMPONENTS STRUCTURE:
+
+src> DashBoard>
+        /DashboardMain.js
+     Headers
+        /PedningTableHeader.css
+        /PeningTableHeader.js
+     Layouts
+        /ChannelLayout.js
+        /DashboardLayout.js
+        /InventoryLayout.js
+        /OrdersLayout.js
+        /ShippingLayout.js
+     MainHeader
+        /MainHeader.js
+     tables
+        /AcceptedTable.js
+        /AWBCreatedTable.js
+        /CancelledTable.js
+        /CompletedTable.js
+        /PendingTable.js
+        /ReadyRoShipTable.js
+        /ShippedTable.js
+
+
+Commands to use:
+npx create-react-app order-details
+npm i react-bootstrap bootstrap
+npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm start to run the app.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
